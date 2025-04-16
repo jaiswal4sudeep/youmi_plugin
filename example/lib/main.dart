@@ -25,8 +25,8 @@ class _MyAppState extends State<MyApp> {
 
   // Platform messages are asynchronous, so we initialize in an async method.
   Future<void> initPlatformState() async {
-    CsYoumiAd().initSDK(appId: "1560001");
-    CsYoumiAd().showOfferwallAd("userId");
+    CsYoumiAd().initSDK(appId: "<APP_ID>");
+    CsYoumiAd().showOfferwallAd("<USER_ID>");
 
     if (!mounted) return;
 
